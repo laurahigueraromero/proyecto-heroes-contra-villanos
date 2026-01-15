@@ -1,0 +1,20 @@
+.carta{
+  border: 1px solid black;
+  text-align: center;
+  background-color: bisque;
+  padding: 20px;
+  border-radius: 20px;
+  
+}
+
+.carta:hover{
+  background-color: blue;
+  color: white;
+}
+
+
+.nombre{
+  text-shadow: 2px 2px 2px blue;
+  font-size: 20px;
+ 
+}

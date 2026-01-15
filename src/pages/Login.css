@@ -1,0 +1,23 @@
+body{
+  background-color: blue;
+ 
+}
+.contenedor-login{
+  text-align: center;
+  padding: 200px;
+}
+input{
+  padding: 3px;
+  margin: 5px;
+  text-align: center;
+}
+
+form{
+  border: 2px solid black;
+  width: 80%;
+  padding: 20px;
+  margin-left: 10%;
+  box-shadow: 2px 2px 5px grey;
+  border-radius: 20px;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP3DcGziyrJmBFHYqQ6GMagC9CVPhXM45sdg&s);
+}
