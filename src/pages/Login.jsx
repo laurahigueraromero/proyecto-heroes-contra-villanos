@@ -10,7 +10,6 @@ function Login() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    
     const usuarioEncontrado = user.find(
       u => u.usuario === usuario && u.contraseña === contraseña
     );
