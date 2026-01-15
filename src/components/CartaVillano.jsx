@@ -1,8 +1,11 @@
 import { useState } from 'react'
 import '../components/CartaHeroe.css'
 
-function CartaVillano(villano) {
+function CartaVillano({villano}) {
 
+ if (!villano) {
+    return <div className="carta">Cargando villano...</div>;
+  }
 
 
 
